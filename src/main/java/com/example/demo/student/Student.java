@@ -7,6 +7,7 @@ import java.util.Objects;
 @Entity
 @Table
 public class Student {
+
     @Id
     @SequenceGenerator(
             name = "student_sequence",
@@ -17,7 +18,7 @@ public class Student {
             strategy = GenerationType.SEQUENCE,
             generator = "student_sequence"
     )
-    private long id;
+    private Long id;
     private String name;
     private String email;
     private LocalDate dob;
