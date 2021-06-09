@@ -18,14 +18,12 @@ public class StudentConfig {
             StudentRepository repository) {
         return args -> {
             Student mariam = new Student(
-                    1L,
                     "Mariam",
                     "mariam.jamal@gmail.com",
                     LocalDate.of(2000, JANUARY, 5)
             );
 
             Student alex = new Student(
-                    2L,
                     "Alex",
                     "alex.smith@gmail.com",
                     LocalDate.of(2004, MARCH, 21)

@@ -51,7 +51,7 @@ public class Student {
         this.dob = dob;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
